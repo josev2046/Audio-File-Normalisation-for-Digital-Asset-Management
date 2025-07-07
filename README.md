@@ -18,6 +18,9 @@ By utilising FFmpeg and its companion tool, FFprobe (for media analysis), we can
 
 ## Batch Processing Script
 
+![image](https://github.com/user-attachments/assets/781f37a0-1374-416a-ab60-9c04b7339b73)
+
+
 The following Bash script facilitates this batch operation, automating the conversion process:
 
 ```bash
