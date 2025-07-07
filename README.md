@@ -1,5 +1,7 @@
 # Audio File Normalisation for Digital Asset Management
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15830991.svg)](https://doi.org/10.5281/zenodo.15830991)
+
 This repository addresses a common challenge encountered within Digital Asset Management (DAM) systems: the ingestion of diverse audio file formats. This document outlines a robust methodology for normalising such assets into a unified and highly compatible `.mp4` container, ensuring seamless integration, consistent playback, and long-term preservation within a DAM environment.
 
 ## The Challenge: Diverse Audio Assets
