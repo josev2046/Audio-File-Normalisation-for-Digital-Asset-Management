@@ -1,0 +1,22 @@
+@startuml
+
+participant Shell
+participant "File System" as FS
+participant FFprobe
+participant FFmpeg
+
+Shell -> Shell: Run script
+Shell -> FS: mkdir converted_videos
+loop for each file (*.mp3, *.opus, *.m4a)
+    Shell -> FS: Check if file exists
+    alt file exists
+        Shell -> FS: Extract basename (remove extension)
+        Shell -> FFprobe: Get duration of audio
+        FFprobe --> Shell: Return duration (in seconds)
+        Shell -> FFmpeg: Convert audio to video\nwith black background
+        FFmpeg --> Shell: Save to converted_videos/{filename}.mp4
+    else file does not exist
+        note right of Shell: Skip file
+    end
+end
+@enduml
