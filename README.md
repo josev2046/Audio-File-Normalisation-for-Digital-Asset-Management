@@ -12,7 +12,7 @@ To mitigate these operational difficulties, a pre-ingestion normalisation strate
 
 ## Technical Implementation: Leveraging FFmpeg
 
-The FFmpeg suite, renowned for its comprehensive media handling capabilities, is central to this normalisation endeavour. By utilising FFmpeg and its companion tool, FFprobe (for media analysis), we can programmatically convert the audio collection into the desired `.mp4` format. The `.mp4` container, coupled with the H.264 video codec and AAC audio codec, represents a widely accepted standard suitable for web playback and integration with contemporary DAM systems.
+By utilising FFmpeg and its companion tool, FFprobe (for media analysis), we can programmatically convert the audio collection into the desired `.mp4` format. The `.mp4` container, coupled with the H.264 video codec and AAC audio codec, represents a widely accepted standard suitable for web playback and integration with contemporary DAM systems.
 
 ## Batch Processing Script
 
